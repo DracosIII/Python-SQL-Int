@@ -104,7 +104,7 @@ class SQLManagerProject(QWidget):
         t_lay.addWidget(self.target_db); t_lay.addWidget(self.new_table_name); t_lay.addLayout(h_col); t_lay.addWidget(btn_create_t)
         table_group.setLayout(t_lay)
 
-        # --- SECTION : AJOUTER COLONNE (NOUVEAU) ---
+        # --- SECTION : AJOUTER COLONNE ---
         alter_group = QGroupBox("Ajouter une Colonne à une table existante")
         a_lay = QVBoxLayout()
         h_target = QHBoxLayout()
@@ -246,3 +246,4 @@ if __name__ == "__main__":
     window.show()
 
     sys.exit(app.exec())
+
